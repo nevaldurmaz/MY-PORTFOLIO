@@ -1,37 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Modern Portfoliom 
+-- Geliştirme Aşamasında
+![EkranKayd2025-11-2823 41 24-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/1b3d0e56-e803-4e85-8cd0-785fef9b5220)
 
-## Getting Started
+Next.js 15 & React 19 ile yeni göz bebeğim! Tüm ekleme ve güncellemeleri bitirdikten sonra canlıya alacağım, Kendimi en iyi şekilde ifade edebileceğim, modern teknolojilerle donatılmış, hem güzel görünen hem de hızlı çalışan bir portfolyo sitesi inşa ediyorum ve süper heyecanlıyım - kodluyorum - öğreniyorum ve geliştiriyorum! ✨
 
-First, run the development server:
+# 🎯 Özellikler
+🌙 Karanlık/Aydınlık Mod - Gözleriniz yorulmasın diye!
+📱 Mobil Uyumlu Tasarım - Telefondan da harika görünsün
+🎭 Animasyonlar - Framer Motion'la sitenin her yerinde hareket
+🔗 Sosyal Medya Entegrasyonu - Tüm hesaplarıma kolay ulaşım
+💼 Proje Galerisi - Yaptığım işleri gururla sergiliyorum
+⚡ Yüksek Performans - Next.js 15 ile optimize edilmiş
 
-```bash
+# 🛠️ Teknolojiler
+Next.js 15 🆕 - App Router ve Server Components
+React 19 🎯 - En son React özellikleri
+TypeScript 💙 - Type-safe development
+Tailwind CSS 🎨 - Modern utility-first CSS
+Framer Motion ✨ - Smooth animasyonlar
+
+# 🚀 Kurulum
+
+# Repoyu klonla
+git clone https://github.com/nevaldurmaz/dev-portfolio.git
+# Dependencies'ı yükle
+npm install
+# Development server'ı başlat
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📦 Build
+# Production build
+npm run build
+# Start production server
+npm start
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 🌟 Gelecek Güncellemeler
+-Blog modülü
+-Çoklu dil desteği
+-İletişim formu
+-Analytics entegrasyonu
+-PWA özellikleri
+-CMS entegrasyonu
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# MY-PORTFOLIO
+# 📞 İletişim
+LinkedIn: Neval Durmaz
+Twitter: @DurmazNeval
