@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+/* FONT TANIMLARI */
+:root {
+  --font-sans: "Open Sans", system-ui, sans-serif;
+  --font-montserrat: "Montserrat", system-ui, sans-serif;
+}
+
+/* TAILWIND CONFIG'DEKİ TÜM RENKLER */
+:root {
+  /* Primary colors */
+  --primary-light: #f8f8f8;
+  --primary-dark: #191919;
+
+  /* Pinkish colors */
+  --pinkish-100: #edb5f5;
+  --pinkish-200: #eb7ad4;
+  --pinkish-300: #e86ed0;
+
+  /* Blueish colors */
+  --blueish-100: #e6f8f9;
+  --blueish-200: #b1e8ed;
+
+  /* Text colors */
+  --text-light: #374151;
+  --text-dark: #ffffff;
+}
+
+/* DARK/LIGHT MODE */
+.dark {
+  --bg-color: var(--primary-dark);
+  --text-color: var(--text-dark);
+}
+
+.light {
+  --bg-color: var(--primary-light);
+  --text-color: var(--text-light);
+}
+
+/* FONT CLASS'LARI */
+.font-sans-custom {
+  font-family: var(--font-sans) !important;
+}
+
+.font-montserrat-custom {
+  font-family: var(--font-montserrat) !important;
+}
+
+/* RENK CLASS'LARI */
+.text-custom-force {
+  color: var(--text-color) !important;
+  font-family: var(--font-montserrat) !important;
+}
+
+.bg-custom-primary {
+  background-color: var(--bg-color) !important;
+}
+
+/* PINKISH RENK CLASS'LARI */
+.text-pinkish-100 {
+  color: var(--pinkish-100) !important;
+}
+.text-pinkish-200 {
+  color: var(--pinkish-200) !important;
+}
+.text-pinkish-300 {
+  color: var(--pinkish-300) !important;
+}
+
+.bg-pinkish-100 {
+  background-color: var(--pinkish-100) !important;
+}
+.bg-pinkish-200 {
+  background-color: var(--pinkish-200) !important;
+}
+.bg-pinkish-300 {
+  background-color: var(--pinkish-300) !important;
+}
+
+/* BLUEISH RENK CLASS'LARI */
+.text-blueish-100 {
+  color: var(--blueish-100) !important;
+}
+.text-blueish-200 {
+  color: var(--blueish-200) !important;
+}
+
+.bg-blueish-100 {
+  background-color: var(--blueish-100) !important;
+}
+.bg-blueish-200 {
+  background-color: var(--blueish-200) !important;
+}
+
+/* KESİN ÇÖZÜM CLASS'LARI */
+.force-dark-text {
+  color: var(--text-color) !important;
+  font-family: var(--font-montserrat) !important;
+}
+
+.dark .force-white {
+  color: white !important;
+}
+/* DARK MODE ICON RENKLERİ */
+.dark .github-icon,
+.dark .linkedin-icon,
+.dark .twitter-icon {
+  color: white !important;
+}
+
+.dark .github-icon:hover,
+.dark .linkedin-icon:hover,
+.dark .twitter-icon:hover,
+.github-icon:hover,
+.linkedin-icon:hover,
+.twitter-icon:hover {
+  color: #eb7ad4 !important;
+}
+.dark .linkedin-icon:hover {
+  color: #eb7ad4 !important;
+}
+.back-home-link {
+  color: #1f2937 !important; /* gray-800 - light mode */
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.dark .back-home-link {
+  color: white !important; /* dark mode */
+}
+
+.back-home-link:hover {
+  color: #4b5563 !important; /* gray-600 - light mode hover */
+}
+
+.dark .back-home-link:hover {
+  color: #d1d5db !important; /* gray-300 - dark mode hover */
+}
+.back-home-link {
+  color: #1f2937 !important; /* gray-800 - light mode */
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.dark .back-home-link {
+  color: white !important; /* dark mode */
+}
+
+.back-home-link:hover {
+  color: #4b5563 !important; /* gray-600 - light mode hover */
+}
+
+.dark .back-home-link:hover {
+  color: #d1d5db !important; /* gray-300 - dark mode hover */
+  text-size-adjust: 3;
+}
+
+/* Arrow icon için dark mode */
+.dark .back-home-link .fill-current {
+  fill: white !important;
+}
+
+.dark .back-home-link:hover .fill-current {
+  fill: #d1d5db !important;
+}
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+html.dark {
+  background: #000000 !important;
+}
+
+html.dark body {
+  background: #000000 !important;
+}
+
+html.dark .bg-gradient-to-br {
+  background: #000000 !important;
+}
+/* BEYAZ KUTUCUĞU SİYAH YAP */
+.dark .bg-white\/95 {
+  background-color: #000000 !important; /* Siyah arkaplan */
+  border-color: #333333 !important; /* Koyu border */
+}
+
+/* TÜM YAZILARI BEYAZ YAP */
+.dark .text-gray-800,
+.dark .text-gray-700,
+.dark .text-gray-600,
+.dark .text-gray-500,
+.dark .language-js,
+.dark .font-mono {
+  color: #ffffff !important; /* Beyaz yazı */
+}
+
+/* ÖZEL RENKLER - BEYAZ ZEMİNDE GÖZÜKSÜN */
+.dark .text-purple-600,
+.dark .text-purple-400 {
+  color: #9f7aea !important; /* Mor */
+}
+
+.dark .text-pink-500,
+.dark .text-pink-400 {
+  color: #ed64a6 !important; /* Pembe */
+}
+
+/* LINK RENKLERİ */
+.dark .text-purple-600.dark\\:text-purple-400 {
+  color: #9f7aea !important;
+}
+
+.dark .hover\\:text-purple-800:hover,
+.dark .hover\\:text-purple-300:hover {
+  color: #d6bcfa !important; /* Açık mor */
+}
+/* TÜM SAYFALAR İÇİN BAŞLIKLAR */
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: #ffffff !important;
+}
+
+/* TÜM METİNLER İÇİN */
+.dark p,
+.dark span,
+.dark div {
+  color: #e2e8f0 !important;
+}
+/* TÜM TAG BENZERİ ELEMENTLER */
+.dark [class*="bg-"] {
+  color: purple !important; /* Güvenlik için */
+}
